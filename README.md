@@ -32,3 +32,35 @@ Class
       - clearWorld : void
       - worldTimeStep : void
       - displayWorld : void
+ 
+  2. Main
+  
+    a. Fields
+      - kb : Scanner
+      - inputFile : String
+      - testOutputString : ByteArrayOutputStream
+      - myPackage : String
+      - DEBUG : boolean
+      - old : PrintStream
+    
+    b. Methods
+      - main(String[]) : void
+      - runController(Scanner) : void
+      - printInvalidCommand(String[]) : void
+      - printError(String[]) : void
+      
+  3. ShivCritter1 & ShivCritter2
+  
+    a. Fields
+      - direction : int
+      - numFights : int
+      - hasMoved : boolean
+    
+    b. Methods
+      - doTimeStep : void
+      - fight(String) : boolean
+      - toString : String
+      - runStats(List<Critter>) : void
+   
+  4. HamzaCritter1 & HamzaCritter2 
+    
