@@ -1,3 +1,4 @@
+
 # EE422C-assigment4
 
 Class
@@ -57,6 +58,8 @@ Class
       - hasMoved : boolean
     
     b. Methods
+      - ShivCritter1 : constructor
+      - ShivCritter2 : constructor
       - doTimeStep : void
       - fight(String) : boolean
       - toString : String
