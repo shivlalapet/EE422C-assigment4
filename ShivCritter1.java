@@ -57,7 +57,7 @@ public class ShivCritter1 extends TestCritter {
         return "S";
     }
 
-    public static void printStats(java.util.List<Critter> mycritter){
+    public static void runStats(java.util.List<Critter> mycritter){
         int totalFights = 0;
         for(Object obj : mycritter){
             ShivCritter1 critter = (ShivCritter1) obj;
