@@ -138,9 +138,9 @@ public class Main {
                     if(input.length != 2)
                         printInvalidCommand(input);
                     else {
-                        int number = 0;
+                        long number = 0;
                         try{
-                            number = Integer.parseInt(input[1]);
+                            number = Long.parseLong(input[1]);
                         }
                         catch(NumberFormatException e){
                             printError(input);
