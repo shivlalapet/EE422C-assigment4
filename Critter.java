@@ -4,8 +4,8 @@ package assignment4;
  * Shiv Lalapet
  * EID: SL39596
  * Unique No: 15495
- * <Student2 Name>
- * <Student2 EID>
+ * Hamza Sharif
+ * EID: MHS2285
  * Unique No: 15495
  * Spring 2018
  */
