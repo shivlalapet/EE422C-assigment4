@@ -65,5 +65,18 @@ Class
       - toString : String
       - runStats(List<Critter>) : void
    
-  4. HamzaCritter1 & HamzaCritter2 
+  4. HamzaCritter & HamzaCritter1 
+  
+    a. Fields
+      - direction : int
+      - Fights_num : int
+      - hasMoved : boolean
+    
+    b. Methods
+      - HamzaCritter : constructor
+      - HamzaCritter1 : constructor
+      - doTimeStep : void
+      - fight(String) : boolean
+      - toString : String
+      - runStats(List<Critter>) : void
     
