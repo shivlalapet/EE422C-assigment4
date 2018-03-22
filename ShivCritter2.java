@@ -27,7 +27,7 @@ public class ShivCritter2 extends TestCritter {
         }
         //a ton of energy... reproduce and move
         if(getEnergy() >= 100){
-            MyCritter6 child = new MyCritter6();
+            ShivCritter2 child = new ShivCritter2();
             reproduce(child, Critter.getRandomInt(8));
             walk(direction);
             hasMoved = true;
